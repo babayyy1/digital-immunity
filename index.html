@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЦИФРОВОЙ ИММУНИТЕТ v.1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="noise"></div>
+    
+    <header class="header">
+        <div class="header-left">
+            <span class="blink">ЦИФРОВОЙ ИММУНИТЕТ v.1.0</span>
+        </div>
+        <div class="header-right">
+            <span class="counter">ПОСЕТИТЕЛЕЙ: 00042</span>
+            <span class="online">ONLINE: 1</span>
+        </div>
+    </header>
+    
+    <marquee class="marquee" scrollamount="3">ВНИМАНИЕ! Этот сайт выглядит как ловушка, потому что мы учим их распознавать... ВНИМАНИЕ! Этот сайт выглядит как ловушка, потому что мы учим их распознавать...</marquee>
+    
+    <main>
+        <section class="hero">
+            <h1 class="hero-title">ТЫ УВЕРЕН, ЧТО ТЕБЯ НЕ ВЕРБУЮТ?</h1>
+            <p class="hero-subtitle">Манипуляция — это код. И его можно прочитать. Этот сайт — твой декодер.</p>
+            <div class="ascii-art">
+                <pre>
+   .-""-.
+  /      \
+ |        |
+ |        |
+  \      /
+   `-..-'
+                </pre>
+            </div>
+            <a href="#quiz" class="button win98-button">ПРОЙТИ ТЕСТ-СИМУЛЯТОР</a>
+        </section>
+        
+        <section class="flags">
+            <h2 class="section-title">ПРИЗНАКИ МАНИПУЛЯЦИИ В СЕТИ</h2>
+            <div class="flags-box inset">
+                <ul class="flags-list">
+                    <li><span class="check">[X]</span> ИЗОЛЯЦИЯ: тебя просят не рассказывать о новом знакомом друзьям или родителям.</li>
+                    <li><span class="check">[X]</span> БЕСПЛАТНЫЙ СЫР: тебе обещают деньги, успех или любовь просто так, без усилий.</li>
+                    <li><span class="check">[X]</span> СЕКРЕТНОСТЬ: тебе говорят, что информация "не для всех" и ты "избранный".</li>
+                    <li><span class="check">[X]</span> ДАВЛЕНИЕ: тебя торопят принять решение "прямо сейчас".</li>
+                    <li><span class="check">[X]</span> СБОР ДАННЫХ: у тебя просят слишком личную информацию под благовидным предлогом.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="map">
+            <h2 class="section-title">ГДЕ ОНИ ПРЯЧУТСЯ? КАРТА АКТИВНОСТИ</h2>
+            <p class="map-subtitle">Данные собраны из открытых источников и носят ознакомительный характер.</p>
+            <div class="map-placeholder inset">
+                <pre class="ascii-map">
++--------------------------------------------------+
+|                    КАРТА РФ                       |
+|                                                  |
+|     [X] Москва - деструктивная группа А           |
+|     [X] СПб - деструктивная группа Б              |
+|     [X] Новосибирск - деструктивная группа В      |
+|     [X] Екатеринбург - деструктивная группа Г     |
+|     [X] Краснодар - деструктивная группа Д        |
+|                                                  |
+|   (интерактивная карта будет размещена здесь)     |
++--------------------------------------------------+
+                </pre>
+            </div>
+            <p class="map-note">* статус организаций указан согласно открытым данным</p>
+        </section>
+        
+        <section class="quiz" id="quiz">
+            <h2 class="section-title">ПРОВЕРЬ СВОЮ БДИТЕЛЬНОСТЬ: 5 СИТУАЦИЙ</h2>
+            <p class="quiz-subtitle">Это не просто тест. Это симулятор реальных ситуаций. Выбери, как бы ты поступил на самом деле.</p>
+            
+            <div id="quiz-container"></div>
+            
+            <button class="button win98-button" id="submit-quiz">УЗНАТЬ РЕЗУЛЬТАТ</button>
+            
+            <div id="quiz-result" class="quiz-result inset"></div>
+        </section>
+        
+        <section class="database">
+            <h2 class="section-title">ДОСЬЕ: ДЕСТРУКТИВНЫЕ ОРГАНИЗАЦИИ</h2>
+            <p class="database-subtitle">Краткие справки. Знание — твоя защита.</p>
+            
+            <div class="cards">
+                <div class="card inset">
+                    <h3 class="card-title">ГРУППА А</h3>
+                    <p class="card-status">запрещена в РФ</p>
+                    <p class="card-text">Признаки: отказ от медицинской помощи, изоляция от семьи, постоянное изучение публикаций, агрессивное миссионерство.</p>
+                </div>
+                <div class="card inset">
+                    <h3 class="card-title">ГРУППА Б</h3>
+                    <p class="card-status">запрещена в РФ</p>
+                    <p class="card-text">Признаки: смесь восточных учений и апокалиптики, жесткая иерархия, сбор крупных пожертвований, культ лидера.</p>
+                </div>
+                <div class="card inset">
+                    <h3 class="card-title">ГРУППА В</h3>
+                    <p class="card-status">признана экстремистской</p>
+                    <p class="card-text">Признаки: тренинги личностного роста с элементами гипноза, требование разорвать связи с близкими, финансовые пирамиды.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="help">
+            <h2 class="section-title help-title">ЕСЛИ ТЫ УЖЕ ТАМ... ИЛИ ТВОЙ БЛИЗКИЙ</h2>
+            <p class="help-text">Если ты чувствуешь, что попал под влияние группы, где тебя контролируют, унижают или требуют денег — это не твоя вина. Вот куда можно обратиться анонимно и бесплатно:</p>
+            <ul class="help-list">
+                <li>ТЕЛЕФОН ДОВЕРИЯ МВД: 8-800-222-22-22</li>
+                <li>ДЕТСКИЙ ТЕЛЕФОН ДОВЕРИЯ: 8-800-2000-122</li>
+                <li>ЦЕНТР ПСИХОЛОГИЧЕСКОЙ ПОМОЩИ: 8-800-333-44-34</li>
+            </ul>
+            <p class="help-warning">ПОМНИ: БЕСПЛАТНЫЙ СЫР БЫВАЕТ ТОЛЬКО В МЫШЕЛОВКЕ</p>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-divider">*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*</div>
+        <p class="footer-text">(c) 2026. Индивидуальный проект по информатике. МОУ Ликино-Дулёвская СОШ №5.</p>
+        <p class="footer-text">Внешний вид сайта является художественной метафорой и не означает, что авторы — секта. Доверяй, но проверяй.</p>
+        <p class="footer-text">Hosted on GitHub Pages | Under Construction</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
